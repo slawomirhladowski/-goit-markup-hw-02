@@ -15,14 +15,6 @@
   --icon-color: #afb1b8;
 
   --main-font: Roboto, sans-serif;
-
-  /* --brand-color: #2196f3;
-  --brand-secondary-color: #000000;
-  --body-text-color: #757575;
-  --headline-color: #212121;
-  --background-color: #2f303a;
-  --background-color-2nd: #f5f4fa;
-  --white-color: #ffffff; */
 }
 
 body {
@@ -47,10 +39,6 @@ ul {
   margin: 0;
 }
 
-/* nav {
-  display: flex;
-} */
-
 /* gorna waska listwa z nawigacja  */
 
 .top-bar {
@@ -58,11 +46,8 @@ ul {
   height: 80px;
   color: var(--contener-color);
   display: flex;
-
   border: 1px solid var(--line-color);
-
   align-items: center;
-  /* justify-content: space-between; */
 }
 
 .logotype {
@@ -73,12 +58,11 @@ ul {
   letter-spacing: 0.03em;
   color: var(--logo-color-text);
   text-decoration: none;
-  margin-left: 215px; /* dlaczego sie nie odsuwa*/
+  margin-left: 215px;
 }
 
 .piece-of-logotype {
   color: var(--acent-color);
-  /* text-decoration: none; */
 }
 
 .menu-item {
@@ -100,11 +84,6 @@ ul {
   display: flex;
   gap: 46px;
   margin-left: 93px;
-  /* 
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap; */
 }
 
 .contact-link {
@@ -128,8 +107,6 @@ ul {
   /* width: 1600px; */
   height: 600px;
   background: var(--background-footer-color);
-  /* align-content: center; */
-
   padding-top: 200px;
   padding-bottom: 200px;
   margin-left: auto;
@@ -215,7 +192,6 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: var(--ouwner-text-color);
 }
@@ -241,14 +217,19 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
 }
 .work-position {
-  /* .scope-of-work { */
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--ouwner-text-color);
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .flex-container {
@@ -284,7 +265,7 @@ ul {
   margin-top: 94px;
   display: flex;
   list-style-type: none;
-  background-color: #00ff00;
+  /* background-color: #00ff00; */
   gap: 30px;
   /* width: 1170px;
   height: 101px; */
@@ -296,8 +277,8 @@ ul {
   margin-left: 215px;
   width: 1170px;
   height: 386px;
-  /* background-color: var(--background-color); */
-  background-color: brown;
+  background-color: var(--background-color);
+  /* background-color: brown; */
   margin-top: 94px;
 }
 
@@ -313,8 +294,8 @@ ul {
 
 .our-team-card {
   background: var(--background-color);
-  /* material shadow v1 */
-
+  width: 270px;
+  height: 368px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -325,7 +306,7 @@ ul {
   background: var(--buttons-port-color);
   margin-top: 94px;
   padding-top: 94px;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .flex-container-four {
@@ -545,6 +526,6 @@ ul {
   margin-left: 24px;
 }
 
-.moja-klasa {
+/* .moja-klasa {
   background-color: #00ff00;
-}
+} */
